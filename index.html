@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Static Website</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <header class="header">
+      <img width="50px" height="50px" src="watch pic2.jpg" alt="logo" />
+    </header>
+    <div>
+      <ul class="navbar_container">
+        <!--Unordered list-->
+        <li>
+          <!--list of items-->
+          <a href="#home">Home</a>
+          <!--href attribute specifies the URL of the page link goes to -->
+        </li>
+        <li>
+          <a href="#about">About</a>
+        </li>
+        <li>
+          <a href="#contact">Contact</a>
+        </li>
+        <li>
+          <a href="#services">Services</a>
+        </li>
+      </ul>
+    </div>
+    <main>
+      <section class="Home">
+        <h1>Welcome to Watch Shopping Experience</h1>
+        <form name="watch_brand">
+          <!--Watch Section-->
+          <label for="watch_brand">Select Watch Brands</label>
+          <select name="watch_brand">
+            <option value="sonata">Sonata</option>
+            <option value="fastrack">Fastrack</option>
+            <option value="casio">Casio</option>
+            <option value="titan">Titan</option>
+          </select>
+
+          <label for="watch_name">Select Watch</label>
+          <select name="watch_name">
+            <option value="sonata">Sonata ET</option>
+            <option value="fastrack">Fastrack 6565</option>
+            <option value="casio">Casio we56</option>
+            <option value="titan">Titan rey</option>
+          </select>
+
+          <label for="user_name">Full Name</label>
+          <input type="text" name="user_name" />
+
+          <!--Full address-->
+          <label for="address">Address</label>
+          <input type="text" name="address" />
+
+          <!--Email-->
+          <label for="email">Email</label>
+          <input type="email" name="email" />
+
+          <!--Password-->
+          <label for="password">Password</label>
+          <input type="password" name="password" />
+
+          <!--File-->
+          <label for="file">File</label>
+          <input type="file" name="file" />
+
+          <div></div>
+          <!--Submit-->
+          <input type="submit" name="submit" class="submit_button" />
+        </form>
+      </section>
+    </main>
+    <footer>
+        <section id="home" class="home">
+          <h1>Home</h1>
+          <p>High quality watches</p>
+        </section>
+  
+        <section id="about" class="about">
+          <h1>About</h1>
+          <p>We will do high quality watch sales and services</p>
+        </section>
+  
+        <section id="services" class="services">
+          <h1>Services</h1>
+          <p>Watch shopping</p>
+          <p>Watch Services</p>
+          <p>Watch Replacement</p>
+          <p>Watch Buyback</p>
+        </section>
+  
+        <section id="contact" class="contact">
+          <h1>Contact Us</h1>
+          <p>We are delivering high quality watches and services</p>
+        </section>
+      </footer>
+  </body>
+</html>
